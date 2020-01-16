@@ -1,0 +1,456 @@
+body{
+    /* background-color: #fffff0; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   background: 0px 10px 90px rgba(202, 202, 202, 0.205) !important;
+}
+
+/* header section */
+.header_area .main_menu {
+    padding: 0;
+     /* border: 2px solid blue;  */
+     /* box-shadow: -1px 0px 0px 1px; */
+}
+.header_area .main_menu .navbar-nav .nav-item{
+    /* border: 2px solid blue; */
+    margin: 0 0 0 1rem;
+    font-size: 20px;
+}
+.header_area .main_menu .navbar-brand span{
+    /* border: 2px solid lightblue; */
+    background: orange;
+    color:white;
+   padding-right: 0em;
+   border:2px solid orange;
+   border-radius: 50%;
+   text-align: left;
+   margin-right: 10px;
+}
+.header_area .main_menu .navbar-nav button{
+    /* border: 2px solid red; */
+    padding:3px 15px 3px 15px;
+    background: orange;
+    background-clip: padding-box;
+    border: none;
+    color: white;
+    
+}
+.section1 .section-content{
+    /* border: 2px solid blue; */
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.section1 .section-content .section-text{
+    /* border: 2px solid blue; */
+    padding-top: 4rem;
+    
+}
+.section1 .section-content .section-text span{
+    /* border: 2px solid blue; */
+    display: block;
+    font-size: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+
+}
+.section1 .section-content .section-text p{
+    /* border: 2px solid blue; */
+        font-size: 1.2rem;
+        padding-top: 2rem;
+        padding-right: 1rem;
+}
+.section1 .section-content .section1btn{
+    /* border: 2px solid red; */
+    padding: 0.8rem 3rem;
+    cursor: pointer;
+    background: orange;
+    border:none;
+    margin: 2rem 0;
+}
+.course-title{
+    /* border: 2px solid red; */
+    font-weight: bold;
+    padding: 0rem;
+    font-size: 40px
+}
+
+ .sub-title{
+     font-weight: 500;
+    /* border: 2px solid red; */
+    /* border-bottom: 2px solid orange; */
+    /* padding-bottom: 10px; */
+
+}
+.border-bottom{
+    /* border: 2px solid red;  */
+    border-bottom: 2px solid orange;
+    width:10%;
+    margin:auto;
+    height: 3px;
+    background: orange;
+    /* padding-bottom: 10px; */
+
+}
+.section-course{
+    background-color: rgba(202, 202, 202, 0.034);
+}
+.section-course .card{
+      /* border: 2px solid red;    */
+    margin:3rem auto;
+   
+    border-radius: 14px;
+    box-shadow: 0px 10px 30px rgba(202, 202, 202, 0.205);
+    /* padding-bottom: 10px; */
+
+}
+/* ==============Navigator=========== */
+.section-course .navigator  {
+    
+    list-style-type: none;
+    /* position: absolute; */
+    /* top:40%;
+    left:36%; */
+    margin:0;
+    padding: 0;
+    /* display: flex; */
+    padding-bottom: 4rem;
+}
+.section-course .navigator li {
+    background: #262626;
+    width:30px;
+    height:30px;
+    /* margin: 1em; */
+    border-radius: 50%;
+    margin: 0 12px;
+    cursor: pointer;
+}
+.section-course .navigator li.next {
+    /* border:2px solid red; */
+    background: rgba(255, 166, 0, 0.685);
+}
+.section-course .navigator li.next::before {
+    /* border:2px solid red; */
+    position: absolute;
+    content: '';
+    background: gray;
+    width: 3px;
+    height: 15px;
+    transform: rotate(89deg) translate(243%);
+    border:none;
+}
+.section-course .navigator li.prev {
+    /* border:2px solid red; */
+    background: rgba(128, 128, 128, 0.39)
+    
+}
+.section-course .navigator li.prev::before {
+    /* border:2px solid red; */
+    position: absolute;
+    content: '';
+    background: gray;
+    width: 3px;
+    height: 15px;
+    transform: rotate(89deg) translate(8px ,-29px);
+    border: none; 
+}
+
+/* ==============End Navigator=========== */
+
+/*============ Sub Divison============= */
+.section-course {
+    background: #fff !important;
+}
+.section-course .container .bordered .card{
+    box-shadow: 0px 10px 90px rgba(202, 202, 202, 0.205);
+    border:none;
+    cursor: pointer;
+    transition: 1s;
+}
+.section-course .container .bordered .card:hover{
+    box-shadow: 0px 10px 90px rgba(202, 202, 202, 0.205);
+    border:none;
+    transform: scale(1.1);
+}
+.section-course .container .bordered .card i.first{
+    /* border:2px solid red; */
+    padding: 5px 5px ;
+    margin: 9px 0px ;
+    color: orange;
+    border:none;
+    background-clip: border-box;
+   
+    background: rgba(255, 230, 0, 0.651);
+}
+.section-course .container .bordered .card i.second{
+    /* border:2px solid red; */
+    padding: 5px 5px !important;
+    margin: 9px 0px !important;
+    color: rgb(0, 204, 255);
+    border:none;
+    background-clip: border-box;
+   
+    background: rgba(0, 204, 255, 0.055);
+}
+.section-course .container .bordered .card i.third{
+    /* border:2px solid red; */
+    padding: 5px 5px !important;
+    margin: 9px 0px !important;
+    color: rgb(255, 0, 212);
+    border:none;
+    background-clip: border-box;
+   
+    background:rgba(255, 0, 212, 0.055);
+    border:none;
+}
+.section-course .container .bordered .card i.fourth{
+    /* border:2px solid red; */
+    padding: 5px 5px !important;
+    margin: 9px 0px !important;
+    color: rgb(0, 204, 255);
+    border:none;
+    background-clip: border-box;
+   
+    background:rgba(0, 204, 255, 0.055);
+    border:none;
+}
+.section-course .container .bordered .card .card-title.first{
+    /* border:2px solid red; */
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: orange;
+}
+.section-course .container .bordered .card .card-title.second{
+    /* border:2px solid red; */
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: rgb(0, 204, 255);
+}
+.section-course .container .bordered .card .card-title.third{
+    /* border:2px solid red; */
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: rgb(255, 0, 212);
+}
+.section-course .container .bordered .card .card-title.fourth{
+    /* border:2px solid red; */
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: rgb(0, 204, 255);
+}
+.section-course .container .bordered .card .card-text{
+   font-size: 0.9em;
+   font-weight: 500;
+}
+/* ==========end=-=========== */
+.section-area .section-intructors .card{
+    /* border: 2px solid red; */
+    background: #fff;
+    margin: 3rem auto;
+    position: relative;
+    border-radius: 14px;
+    box-shadow: 0px 10px 30px rgba(202, 202, 202, 0.205);
+    border: none;
+}
+.section-area .section-intructors .card img{
+     /* border: 2px solid red;  */
+     border-radius: 48%;
+     width:80px;
+     background: black;
+    margin: 1rem auto;
+    position: absolute;
+    top:-50px
+    
+}
+.section-area .section-intructors .card .card-text{
+    /* border: 2px solid red;   */
+    margin-top:20px;
+    
+   
+}
+.section-area .section-intructors .card .details{
+    /* border: 2px solid red;   */
+    display: flex;
+   
+}
+.section-area .section-intructors .card .details p{
+    /* border: 2px solid red;   */
+    display: flex;
+    margin-right: 6.5rem;
+    color: rgba(128, 128, 128, 0.432);
+}
+.section-area .section-intructors .card .details i{
+    /* border: 2px solid red;   */
+    color:rgb(0, 183, 255);
+   font-size: 18px;
+   padding: 0.5rem;
+}
+
+.section-area .section-event {
+    /* border: 2px solid red; */
+    padding: 2rem 0;
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-0deg, #fff, #cccccc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-0deg, #fff, #cccccc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-0deg, #fff, #cccccc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #cccccc,#fff); /* Standard syntax */
+    /* border: 2px solid blue; */
+
+}
+.section-area .section-event .section-chart{
+    /* border: 2px solid lightblue; */
+    margin: 4rem 0;
+}
+.section-area .section-event .chart1.first{
+    /* border: 2px solid lightblue; */
+    border-left:4px solid orange;
+    box-shadow: 0px 10px 30px rgba(202, 202, 202, 0.747);
+    display: flex;
+    padding: 0.5rem 1rem;
+    width:50%;
+    margin:1rem auto;
+    transition: 2s, margin;
+}
+.section-area .section-event .chart1.second{
+    /* border: 2px solid lightblue; */
+    border-left:4px solid lightblue;
+    box-shadow: 0px 10px 30px rgba(202, 202, 202, 0.747);
+    display: flex;
+    padding: 0.5rem 1rem;
+    width:50%;
+    margin:1rem auto;
+    transition: 2s, margin;
+}
+.section-area .section-event .chart1.third{
+    /* border: 2px solid lightblue; */
+    border-left:4px solid rgba(255, 0, 0, 0.829);
+    box-shadow: 0px 10px 30px rgba(202, 202, 202, 0.747);
+    display: flex;
+    padding: 0.5rem 1rem;
+    width:50%;
+    margin:1rem auto;
+    transition: 2s, margin;
+}
+.section-area .section-event .chart1:hover{
+    margin:1rem 8.5rem;
+    transition: 7s ;
+    cursor: pointer;
+}
+.section-area .section-event .chart1 .calendar{
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    padding: 0 0.5rem;
+    border-radius: 7px;
+    
+}
+.section-area .section-event .chart1 .calendar .day.bold{
+    /* border: 2px solid lightblue; */
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
+.section-area .section-event .chart1 .calendar .month,.year{
+    /* border: 2px solid lightblue; */
+    font-size: 0.8rem;
+}
+.section-area .section-event .chart1 .pic.circle{
+    /* border: 2px solid rgba(128, 128, 128, 0.616); */
+    border-radius: 50%;
+    margin: auto 1rem;
+    background-clip: border-box;
+    padding: 0.5rem;
+    background:gray ;
+    border:none;
+    box-shadow: 1px 10px 30px gray(202, 202, 202, 0.205);
+}
+.section-area .section-event .chart1 .details {
+    /* border: 2px solid lightblue; */
+    padding: 1rem 0;
+}
+.section-area .section-event .chart1 .details .text{
+    /* border: 2px solid lightblue; */
+    font-size:0.8em;
+}
+.section-area .section-event .chart1 .details .title{
+    /* border: 2px solid lightblue; */
+    font-size:1em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 0.5rem 0;
+}
+ .section-area .section-event .section1btn{
+    /* border: 2px solid red; */
+    padding: 0.8rem 3rem;
+    cursor: pointer;
+    background: orange;
+    color:whitesmoke;
+    border:none;
+    margin: 3rem auto;
+    text-align: center;
+}
+/* Sponsor Section */
+.section-area .sponsor{
+    /* border: 2px solid red; */
+    padding-top: 2rem;
+    
+   
+}
+.section-area .sponsor .row{
+    /* border: 2px solid red; */
+    
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 10px;
+        margin-left: 10px;
+    padding: 2rem;
+   
+} 
+.section-area .Section-sponsor-text{
+    padding: 5rem 2rem;
+}
+.Section-sponsor-text .sponsor-text{
+    /* border: 2px solid red; */
+    width:60%;
+    text-align: center;
+    margin:0px auto;
+    padding: 2rem 4rem;
+    background: white(128, 128, 128, 0.137);
+    border-radius: 4px;
+    box-shadow: 4px 10px 30px #cccccc;
+}
+.Section-sponsor-text .sponsor-text button{
+    color:white;
+    
+}
+
+.footers .footer{
+    /* border:2px solid lightblue; */
+    /* text-align: left; */
+    margin: 3rem auto;
+    padding: 2rem auto;
+}
+.footers .footer i{
+    padding-right: 1em;
+ }
+.footers .footer .logo{
+    background: orange;
+    color:white;
+   padding-right: 0em;
+   border:2px solid orange;
+   border-radius: 50%;
+   text-align: left;
+   margin-right: 10px;
+   /* position: absolute;
+   left:20px; */
+}
+.footers .footer h5{
+   font-weight: bold;
+   padding-bottom: 1rem;
+}
+.footers .footer p{
+    
+    padding-bottom: 0rem;
+ }
+ .footers .copyright{
+     text-align: center;
+ }
